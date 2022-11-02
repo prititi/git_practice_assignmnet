@@ -5,11 +5,15 @@ function checkprime(num){
             count++
         }
     }
+    if(count==2){
+        return true
+    }
+    return false
     
 }
 let answer=Checkprime(13);
 if(answer== true){
-    console.log("Is a Prime Number")
+    console.log(i+" Is a Prime Number")
 }else{
-    console.log("Not a Prime Number");
+    console.log(i+" Is Not a Prime Number");
 }
